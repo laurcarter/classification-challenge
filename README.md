@@ -1,7 +1,7 @@
 # Classification Challenge
 
 ## Dataset
-The dataset contains email data labeled as either spam (1) or not spam (0). Each email is represented by various features, such as word frequency and character patterns, enabling the models to distinguish spam from legitimate messages.
+The dataset contains email data labeled as either spam (1) or not spam (0). 
 
 - **Source**: [UCI Machine Learning Repository](https://static.bc-edx.com/ai/ail-v-1-0/m13/challenge/spam-data.csv)
 - **Features**: Includes word frequencies, character frequencies, and capital letter statistics.
@@ -34,10 +34,4 @@ The objective is to develop and evaluate two supervised machine learning modelsâ
 - **Random Forest**: Outperformed Logistic Regression in terms of accuracy but exhibited a larger gap between training and testing accuracy, suggesting slight overfitting.
 
 ## Conclusion
-The **Random Forest Classifier** performed better overall, aligning with initial expectations. Its ability to handle complex patterns makes it an excellent choice for this dataset, though further tuning could reduce overfitting.
-
-## Usage
-Run the `spam_detector.ipynb` notebook to:
-- Train the models.
-- Evaluate their performance.
-- Compare the results.
+The **Random Forest Classifier** performed better overall, aligning with my prediction. Its ability to handle complex patterns makes it a good choice, though further tuning could reduce overfitting.
